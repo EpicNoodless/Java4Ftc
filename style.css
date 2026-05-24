@@ -3,4 +3,23 @@ body {
   background: #111;
   color: white;
   text-align: center;
+  a {
+    color: purple;
+  }
+
+  /* Visited link */
+  a:visited {
+    color: purple;
+  }
+
+  /* Mouse hover */
+  a:hover {
+    color: blue;
+  }
+
+  /* While clicking */
+  a:active {
+    color: green;
+  }
+
 }
